@@ -1,0 +1,69 @@
+# Site settings
+title                 : Justin Perona
+title_separator       : "|"
+description           : >-
+  Personal website for Justin Perona.
+  Computer scientist in the San Franciso Bay Area.
+url                   : "https://perona.dev"
+repository            : "jlperona/jlperona.github.io"
+site.locale           : "en-US"
+timezone              : "America/Los_Angeles"
+
+# Author sidebar settings
+author                :
+  name                : "Justin Perona"
+  avatar              : "/assets/images/bio-photo.jpg"
+  bio                 : "Looking for opportunities. MS in Computer Science."
+  location            : "San Francisco Bay Area"
+  links               :
+    - label           : "GitHub"
+      icon            : "fab fa-fw fa-github"
+      url             : "https://github.com/jlperona"
+    - label           : "LinkedIn"
+      icon            : "fab fa-fw fa-linkedin-in"
+      url             : "https://www.linkedin.com/in/jlperona/"
+
+# Defaults for pages
+defaults              :
+  - scope             :
+      path            : ""
+      type            : "pages"
+    values            :
+      layout          : single
+      author_profile  : true
+      read_time       : false
+      comments        : false
+      share           : false
+      related         : false
+
+# Footer settings
+footer                :
+  links               :
+    - label           : "GitHub"
+      icon            : "fab fa-fw fa-github"
+      url             : "https://github.com/jlperona"
+    - label           : "LinkedIn"
+      icon            : "fab fa-fw fa-linkedin-in"
+      url             : "https://www.linkedin.com/in/jlperona/"
+
+# Theme settings
+remote_theme          : "mmistakes/minimal-mistakes@4.20.2"
+
+# Build settings
+plugins               :
+  - jekyll-remote-theme
+  - jekyll-include-cache
+include               :
+  - _pages
+
+# Compression settings
+# See http://jch.penibelst.de/ for more details
+compress_html         :
+  clippings           : all
+  comments            : []
+  endings             : []
+  ignore              :
+    envs              : development
+  blanklines          : false
+  profile             : false
+  startings           : []
