@@ -6,7 +6,7 @@ You can access it at [perona.dev](https://perona.dev).
 ## Theme
 
 I use [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
-The website that I've based mine off of, [Aakash Prabhu's personal website](http://aakprabhu.com/), uses [Academic Pages](https://github.com/academicpages/academicpages.github.io).
+The website that I've based mine off of, [Aakash Prabhu's personal website](http://aakprabhu.com/), uses [Academic Pages](https://github.com/academicpages/academicpages.github.io), which is a fork of Minimal Mistakes.
 I'm no longer an academic and don't really need the extra features for Markdown generation.
 
 ## Acknowledgments
