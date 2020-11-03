@@ -1,9 +1,10 @@
 # Site settings
-title                 : Justin Perona
+title                 : "Justin Perona"
 title_separator       : "|"
 description           : >-
   Personal website for Justin Perona.
-  Computer scientist in the San Franciso Bay Area.
+  Computer scientist in the San Francisco Bay Area.
+logo                  : "/assets/images/masthead.png"
 url                   : "https://perona.dev"
 repository            : "jlperona/jlperona.github.io"
 site.locale           : "en-US"
@@ -12,8 +13,10 @@ timezone              : "America/Los_Angeles"
 # Author sidebar settings
 author                :
   name                : "Justin Perona"
-  avatar              : "/assets/images/bio-photo.jpg"
-  bio                 : "Looking for opportunities. MS in Computer Science."
+  avatar              : "/assets/images/avatar.jpg"
+  bio                 : >-
+    Computer scientist in the San Francisco Bay Area.
+    Currently looking for opportunities.
   location            : "San Francisco Bay Area"
   links               :
     - label           : "GitHub"
@@ -48,11 +51,13 @@ footer                :
 
 # Theme settings
 remote_theme          : "mmistakes/minimal-mistakes@4.20.2"
+minimal_mistakes_skin : "default"
 
 # Build settings
 plugins               :
-  - jekyll-remote-theme
+  - jekyll-github-metadata
   - jekyll-include-cache
+  - jekyll-remote-theme
 include               :
   - _pages
 

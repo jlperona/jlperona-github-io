@@ -1,4 +1,5 @@
 ---
+title     : "Resume"
 permalink : /resume/
 ---
 

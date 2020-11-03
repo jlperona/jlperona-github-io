@@ -1,10 +1,11 @@
 source "https://rubygems.org"
 
-# Hosting on GitHub Pages
+# Gems whitelisted for use with GitHub Pages
 gem "github-pages", group: :jekyll_plugins
 
-# Plugins list
+# Utilized gems from whitelist
 group :jekyll_plugins do
-  gem "jekyll-remote-theme"
+  gem "jekyll-github-metadata"
   gem "jekyll-include-cache"
+  gem "jekyll-remote-theme"
 end
