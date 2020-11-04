@@ -10,6 +10,14 @@ repository            : "jlperona/jlperona.github.io"
 site.locale           : "en-US"
 timezone              : "America/Los_Angeles"
 
+# Build settings
+plugins               :
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-remote-theme
+include               :
+  - _pages
+
 # Author sidebar settings
 author                :
   name                : "Justin Perona"
@@ -26,19 +34,6 @@ author                :
       icon            : "fab fa-fw fa-linkedin-in"
       url             : "https://www.linkedin.com/in/jlperona/"
 
-# Defaults for pages
-defaults              :
-  - scope             :
-      path            : ""
-      type            : "pages"
-    values            :
-      layout          : single
-      author_profile  : true
-      read_time       : false
-      comments        : false
-      share           : false
-      related         : false
-
 # Footer settings
 footer                :
   links               :
@@ -49,17 +44,16 @@ footer                :
       icon            : "fab fa-fw fa-linkedin-in"
       url             : "https://www.linkedin.com/in/jlperona/"
 
+# Collections settings
+collections           :
+  projects            :
+    output            : true
+    permalink         : /:collection/:path
+
 # Theme settings
 remote_theme          : "mmistakes/minimal-mistakes@4.20.2"
 minimal_mistakes_skin : "default"
-
-# Build settings
-plugins               :
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-remote-theme
-include               :
-  - _pages
+breadcrumbs           : true
 
 # Compression settings
 # See http://jch.penibelst.de/ for more details
@@ -72,3 +66,28 @@ compress_html         :
   blanklines          : false
   profile             : false
   startings           : []
+
+# Content defaults
+defaults              :
+  # _pages
+  - scope             :
+      path            : ""
+      type            : "pages"
+    values            :
+      layout          : single
+      author_profile  : true
+      read_time       : false
+      comments        : false
+      share           : false
+      related         : false
+  # _projects
+  - scope             :
+      path            : ""
+      type            : projects
+    values            :
+      layout          : single
+      author_profile  : true
+      read_time       : false
+      comments        : false
+      share           : false
+      related         : false

@@ -11,6 +11,8 @@ header              :
 I taught computer science for six years (2015 - 2020) in the [Department of Computer Science](https://cs.ucdavis.edu/) at [UC Davis](https://www.ucdavis.edu/).
 All the courses I've taught are below; each link leads to the course website for that offering of the course.
 
+For my non-academic projects, see the [Projects tab](https://perona.dev/projects/).
+
 ## Instructor
 
 Courses that I've taught as instructor of record.
