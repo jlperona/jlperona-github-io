@@ -1,7 +1,11 @@
 ---
-title     : "Teaching"
-permalink : /teaching/
-toc       : true
+title               : "Teaching"
+permalink           : /teaching/
+toc                 : true
+header              :
+  overlay_image     : /assets/images/teaching-header.jpg
+  caption           : "Photo credit: **Justin Perona**"
+  image_description : "Banner image of my SIGCSE 2019 badge, academic hood, and graduation stole."
 ---
 
 I taught computer science for six years (2015 - 2020) in the [Department of Computer Science](https://cs.ucdavis.edu/) at [UC Davis](https://www.ucdavis.edu/).
@@ -12,7 +16,7 @@ All the courses I've taught are below; each link leads to the course website for
 Courses that I've taught as instructor of record.
 I believe in the open source movement, and so all of my class materials are available with [Creative Commons licenses](https://creativecommons.org/licenses/) on GitHub under my [jlperona-teaching organization](https://github.com/jlperona-teaching).
 
-### Teaching Assistant Training Seminar
+### Computer Science Teaching Pedagogy Seminar
 
 Alternative title: "teaching TAs to teach."
 A seminar focused on preparing potential teaching assistants to teach computer science at the undergraduate level.

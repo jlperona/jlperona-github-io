@@ -1,5 +1,7 @@
 # Navbar setup
 main      :
+  - title : "About Me"
+    url   : /
   - title : "Projects"
     url   : /projects/
   - title : "Teaching"
