@@ -4,7 +4,7 @@ title_separator       : "|"
 description           : >-
   Personal website for Justin Perona.
   Computer scientist in the San Francisco Bay Area.
-logo                  : "/assets/images/masthead.png"
+logo                  : "/assets/images/site/masthead.png"
 url                   : "https://perona.dev"
 repository            : "jlperona/jlperona.github.io"
 site.locale           : "en-US"
@@ -21,7 +21,7 @@ include               :
 # Author sidebar settings
 author                :
   name                : "Justin Perona"
-  avatar              : "/assets/images/avatar.jpg"
+  avatar              : "/assets/images/site/avatar.jpg"
   bio                 : >-
     Computer scientist in the San Francisco Bay Area.
     Currently looking for opportunities.
@@ -83,7 +83,7 @@ defaults              :
   # _projects
   - scope             :
       path            : ""
-      type            : projects
+      type            : "projects"
     values            :
       layout          : single
       author_profile  : true

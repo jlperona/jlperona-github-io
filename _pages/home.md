@@ -2,7 +2,7 @@
 title               : "Home"
 permalink           : /
 header              :
-  overlay_image     : /assets/images/home-header.jpg
+  overlay_image     : /assets/images/banners/home.jpg
   caption           : "Photo credit: **Tristan Perona**"
   image_description : "Banner image of me looking out over the San Francisco Bay towards San Francisco."
 ---

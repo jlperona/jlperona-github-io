@@ -6,9 +6,11 @@ collection          : projects
 entries_layout      : grid
 classes             : wide
 header              :
-  overlay_image     : /assets/images/projects-header.jpg
+  overlay_image     : /assets/images/banners/projects.jpg
   caption           : "Photo credit: **Alan Zhao**"
-  image_description : "Banner image of me standing in front of my Picnic Day 2019 project."
+  image_description : "Banner image of me standing in front of my Post-It Pandemonium project."
 ---
 
-Projects under construction.
+Selected projects I've completed over the years.
+
+For projects related to my teaching, see the [Teaching tab](/teaching/).
