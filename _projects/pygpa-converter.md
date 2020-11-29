@@ -5,4 +5,6 @@ header   :
   teaser : /assets/images/projects/pygpa-converter/teaser.jpg
 ---
 
-Under construction.
+This project is open-source and available on GitHub at [jlperona/pygpa-converter](https://github.com/jlperona/pygpa-converter).
+
+*Remaining details under construction.*

@@ -22,6 +22,6 @@ gallery        :
     title      : "Finished QR code. You might even be able to scan it with your phone!"
 ---
 
-Under construction.
+*Remaining details under construction.*
 
 {% include gallery caption="Gallery of relevant photos to this project." %}
