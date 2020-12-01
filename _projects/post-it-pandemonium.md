@@ -1,6 +1,7 @@
 ---
 title          : "Post-It Pandemonium"
 excerpt        : "Building a 9-foot-tall QR code out of 900 Post-Its."
+toc            : true
 header         :
   teaser       : /assets/images/projects/post-it-pandemonium/teaser.jpg
 gallery        :
@@ -22,6 +23,16 @@ gallery        :
     title      : "Finished QR code. You might even be able to scan it with your phone!"
 ---
 
+## Background
+
 *Remaining details under construction.*
 
-{% include gallery caption="Gallery of relevant photos to this project." %}
+## Project
+
+*Remaining details under construction.*
+
+## Gallery
+
+Gallery of relevant photos to this project.
+
+{% include gallery %}
