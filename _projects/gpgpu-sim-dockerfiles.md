@@ -10,6 +10,8 @@ header   :
 
 Information on this project is available on [this Medium post](https://medium.com/@jlperona/gpgpu-sim-and-machine-learning-workloads-152563e6703f).
 
+*Remaining details under construction.*
+
 ## Project
 
 *Remaining details under construction.*

@@ -8,29 +8,27 @@ gallery        :
   - url        : /assets/images/projects/pygpa-converter/gallery-1.jpg
     image_path : /assets/images/projects/pygpa-converter/gallery-1.jpg
     alt        : >-
-                 UC Davis' Social Sciences and Humanities Building.
-                 It's nicknamed the 'Death Star' for how confusing it is to navigate.
+                 A spreadsheet of Indian universities that maps their letter grades to the Indian 10-point grade scale.
+                 You can find this spreadsheet on this project's GitHub repository.
     title      : >-
-                 UC Davis' Social Sciences and Humanities Building.
-                 It's nicknamed the 'Death Star' for how confusing it is to navigate.
+                 A spreadsheet of Indian universities that maps their letter grades to the Indian 10-point grade scale.
+                 You can find this spreadsheet at https://github.com/jlperona/pygpa-converter/blob/master/data/india10.csv.
   - url        : /assets/images/projects/pygpa-converter/gallery-2.jpg
     image_path : /assets/images/projects/pygpa-converter/gallery-2.jpg
     alt        : >-
-                 An example rendering of the SVG for the 0th floor of the Death Star.
-                 The lines between rooms are valid paths that the algorithm can travel on.
-                 Lines that appear to go nowhere, such as the ones on the far right, are 'portals' that travel between floors.
+                 A test spreadsheet for verifying that GPA conversions that are correct.
+                 Normally, student transcript data would be input in each row.
     title      : >-
-                 An example rendering of the SVG for the 0th floor of the Death Star.
-                 The lines between rooms are valid paths that the algorithm can travel on.
-                 Lines that appear to go nowhere, such as the ones on the far right, are 'portals' that travel between floors.
+                 A test spreadsheet for verifying that GPA conversions that are correct.
+                 Normally, student transcript data would be input in each row.
   - url        : /assets/images/projects/pygpa-converter/gallery-3.jpg
     image_path : /assets/images/projects/pygpa-converter/gallery-3.jpg
     alt        : >-
-                 An example rendering of a wayfinding from one room to another.
-                 Example taken from the UC Davis Wayfinding GitHub page.
+                 The result of running pygpa-converter on the test spreadsheet from the previous picture.
+                 For each grade scale (or student in normal usage) pygpa-converter computes the student's 4.0 GPA scale equivalent.
     title      : >-
-                 An example rendering of a wayfinding from one room to another.
-                 Example taken from https://ucdavis.github.io/wayfinding/.
+                 The result of running pygpa-converter on the test spreadsheet from the previous picture.
+                 For each grade scale (or student in normal usage) pygpa-converter computes the student's 4.0 GPA scale equivalent.
 ---
 
 ## Background
@@ -42,9 +40,13 @@ Every year, our program received over 2000 applications.
 A significant portion of those were international applicants from countries who do not use the United States' 4.0 GPA scale.
 In order to fairly compare with domestic students, their GPAs need to be converted over to the 4.0 GPA scale.
 
+*Remaining details under construction.*
+
 ## Project
 
 This project is open-source and available on GitHub at [jlperona/pygpa-converter](https://github.com/jlperona/pygpa-converter).
+
+*Remaining details under construction.*
 
 ## Gallery
 
