@@ -66,7 +66,7 @@ To facilitate this, the set of SVGs defines a graph via the following:
 Due to impreciseness in SVG editors such as Adobe Illustrator, subtle errors can pop up and affect the correctness of the pathfinding:
 
 * rooms or nodes can be unreachable
-* two nodes can be "close" to each other instead of being the same point, causing pathfinding errors
+* two nodes can unintentionally be "close" to each other instead of being the same node, causing pathfinding errors
 * portals can be ill-defined and thus not connect to other portals properly
 
 To solve these issues, my partner and I wrote a linter in C++ to analyze the SVGs.
