@@ -36,7 +36,7 @@ You can find a hosted version of this project on [shinyapps.io](https://jlperona
 ## Background
 
 During the course of my Master's degree, I took ECI 254 (Exploring Data from Built Environment Using R) with [Professor Deb Niemeier](https://faculty.engineering.ucdavis.edu/dniemeier/).
-My final project for that class was to create a heatmap of passengers that traveled through the [San Francisco Bay Area Rapid Transit (BART)](https://www.bart.gov/) system.
+My choice for the final project for that class was to create a heatmap of passengers that traveled through the [San Francisco Bay Area Rapid Transit (BART)](https://www.bart.gov/) system.
 As the class required the use of [R](https://www.r-project.org/), I decided to use [Shiny](https://shiny.rstudio.com/) to help me build the heatmap.
 
 The heatmap is heavily based on one of my previous projects, [jlperona/bart-hourly-dataset-parser](https://github.com/jlperona/bart-hourly-dataset-parser).
@@ -52,7 +52,8 @@ To do so, I wrote a [preparser](https://github.com/jlperona/bart-passenger-heatm
 After I had the data, I wrote the code to parse the data in plain R, then the code to render the data as a heatmap using Shiny and *leaflet*.
 For more details on the technical aspects of the project, see [this RMarkdown document in the repository](https://github.com/jlperona/bart-passenger-heatmap/blob/master/bart-passenger-heatmap.Rmd).
 
-This project is open-source and available on GitHub at [jlperona/bart-passenger-heatmap](https://github.com/jlperona/bart-passenger-heatmap).
+You can find a hosted version of this project on [shinyapps.io](https://jlperona.shinyapps.io/bart-passenger-heatmap/).
+All code is open-source and available on GitHub at [jlperona/bart-passenger-heatmap](https://github.com/jlperona/bart-passenger-heatmap).
 Both it and its predecessor are licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Gallery
